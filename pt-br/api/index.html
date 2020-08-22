@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Referência de codificação | 📈 vue-chartjs</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="⚡ Gráficos bonitos e fácil com Chart.js e Vue.js">
+    <link rel="preload" href="/assets/css/0.styles.034a2a2e.css" as="style"><link rel="preload" href="/assets/js/app.fe685541.js" as="script"><link rel="preload" href="/assets/js/3.b780ef21.js" as="script"><link rel="preload" href="/assets/js/19.0a3b8641.js" as="script"><link rel="prefetch" href="/assets/js/10.9a32fe5a.js"><link rel="prefetch" href="/assets/js/11.6cd88c93.js"><link rel="prefetch" href="/assets/js/12.e1d092c8.js"><link rel="prefetch" href="/assets/js/13.3dc8aa39.js"><link rel="prefetch" href="/assets/js/14.f45db726.js"><link rel="prefetch" href="/assets/js/15.ba1702cd.js"><link rel="prefetch" href="/assets/js/16.5aaf7ba3.js"><link rel="prefetch" href="/assets/js/17.227ae454.js"><link rel="prefetch" href="/assets/js/18.4aab3017.js"><link rel="prefetch" href="/assets/js/20.8324ded1.js"><link rel="prefetch" href="/assets/js/21.939dd8ef.js"><link rel="prefetch" href="/assets/js/22.1c6a5b1c.js"><link rel="prefetch" href="/assets/js/23.d139178b.js"><link rel="prefetch" href="/assets/js/24.367e0817.js"><link rel="prefetch" href="/assets/js/25.c58f3a24.js"><link rel="prefetch" href="/assets/js/26.ffaa770c.js"><link rel="prefetch" href="/assets/js/4.623d7997.js"><link rel="prefetch" href="/assets/js/5.ba8464c4.js"><link rel="prefetch" href="/assets/js/6.2372dfd9.js"><link rel="prefetch" href="/assets/js/7.2c27f585.js"><link rel="prefetch" href="/assets/js/8.d01b7c19.js"><link rel="prefetch" href="/assets/js/9.17ae4b76.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.f5584d80.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.034a2a2e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pt-br/" class="home-link router-link-active"><!----> <span class="site-name">📈 vue-chartjs</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pt-br/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/pt-br/guide/" class="nav-link">
+  Guia
+</a></div><div class="nav-item"><a href="/pt-br/api/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Linguas</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/api/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh-cn/api/" class="nav-link">
+  中文(简体)
+</a></li><li class="dropdown-item"><!----> <a href="/id/api/" class="nav-link">
+  Bahasa Indonesia
+</a></li><li class="dropdown-item"><!----> <a href="/ja/api/" class="nav-link">
+  日本語
+</a></li><li class="dropdown-item"><!----> <a href="/ru/api/" class="nav-link">
+  Русский
+</a></li><li class="dropdown-item"><!----> <a href="/pt-br/api/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Português do Brasil
+</a></li><li class="dropdown-item"><!----> <a href="/fr-fr/api/" class="nav-link">
+  Français
+</a></li></ul></div></div> <a href="https://github.com/apertureless/vue-chartjs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pt-br/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/pt-br/guide/" class="nav-link">
+  Guia
+</a></div><div class="nav-item"><a href="/pt-br/api/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Linguas</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/api/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh-cn/api/" class="nav-link">
+  中文(简体)
+</a></li><li class="dropdown-item"><!----> <a href="/id/api/" class="nav-link">
+  Bahasa Indonesia
+</a></li><li class="dropdown-item"><!----> <a href="/ja/api/" class="nav-link">
+  日本語
+</a></li><li class="dropdown-item"><!----> <a href="/ru/api/" class="nav-link">
+  Русский
+</a></li><li class="dropdown-item"><!----> <a href="/pt-br/api/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Português do Brasil
+</a></li><li class="dropdown-item"><!----> <a href="/fr-fr/api/" class="nav-link">
+  Français
+</a></li></ul></div></div> <a href="https://github.com/apertureless/vue-chartjs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Referência de codificação</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pt-br/api/#props" class="sidebar-link">Props</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pt-br/api/#eventos" class="sidebar-link">Eventos</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pt-br/api/#metodos-globais" class="sidebar-link">Métodos Globais</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pt-br/api/#generatechart" class="sidebar-link">generateChart</a></li></ul></li><li><a href="/pt-br/api/#metodos-de-instancia" class="sidebar-link">Métodos de instância</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pt-br/api/#generatelegend" class="sidebar-link">generateLegend()</a></li><li class="sidebar-sub-header"><a href="/pt-br/api/#addplugin" class="sidebar-link">addPlugin</a></li><li class="sidebar-sub-header"><a href="/pt-br/api/#renderchart" class="sidebar-link">renderChart()</a></li></ul></li><li><a href="/pt-br/api/#objeto-chart-js" class="sidebar-link">Objeto Chart.js</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pt-br/api/#canvas" class="sidebar-link">Canvas</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="referencia-de-codificacao"><a href="#referencia-de-codificacao" class="header-anchor">#</a> Referência de codificação</h1> <h2 id="props"><a href="#props" class="header-anchor">#</a> Props</h2> <p>Existem alguns props básicas definidas nos componentes fornecidos pelo <code>vue-chartjs</code>. Porque você os <code>estende</code>, eles são <em>invisíveis</em>, mas você pode substituí-los:</p> <table><thead><tr><th>Prop</th> <th>Descrição</th></tr></thead> <tbody><tr><td>width</td> <td>largura do gráfico</td></tr> <tr><td>height</td> <td>altura do gráfico</td></tr> <tr><td>chart-id</td> <td>Id da tela</td></tr> <tr><td>css-classes</td> <td>String com classes css para a div circundante</td></tr> <tr><td>styles</td> <td>Objeto com estilos css para o div contêiner circundante</td></tr> <tr><td>plugins</td> <td>Array com plugins chartjs</td></tr></tbody></table> <h2 id="eventos"><a href="#eventos" class="header-anchor">#</a> Eventos</h2> <p>Se o mixin <code>reactiveData</code> ou <code>reactiveProp</code> estiver anexado, os seguintes eventos serão emitidos:</p> <table><thead><tr><th>Evento</th> <th>Descrição</th></tr></thead> <tbody><tr><td><code>chart:render</code></td> <td>se o mixin executar um renderizador completo</td></tr> <tr><td><code>chart:destroy</code></td> <td>se o mixin excluir a instância do objeto de gráfico</td></tr> <tr><td><code>chart:update</code></td> <td>se o mixin executar uma atualização em vez de uma nova renderização</td></tr> <tr><td><code>labels:update</code></td> <td>se novos labals foram definidos</td></tr> <tr><td><code>xlabels:update</code></td> <td>se novos xLabels foram definidos</td></tr> <tr><td><code>ylabels:update</code></td> <td>se novos yLabels foram definidos</td></tr></tbody></table> <h2 id="metodos-globais"><a href="#metodos-globais" class="header-anchor">#</a> Métodos Globais</h2> <p>Os métodos globais precisam ser importados.</p> <h3 id="generatechart"><a href="#generatechart" class="header-anchor">#</a> generateChart</h3> <ul><li><strong>Tipo:</strong> <code>Function</code></li> <li><strong>Argumentos</strong>: <code>chart-id</code>, <code>chart-type</code></li> <li><strong>Uso:</strong></li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> generateChart <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vue-chartjs&quot;</span><span class="token punctuation">;</span>
+<span class="token comment">// O primeiro argumento é o ID do gráfico, depois o tipo de gráfico.</span>
+<span class="token keyword">const</span> CustomLine <span class="token operator">=</span> <span class="token function">generateChart</span><span class="token punctuation">(</span><span class="token string">&quot;custom-line&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;LineWithLine&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="metodos-de-instancia"><a href="#metodos-de-instancia" class="header-anchor">#</a> Métodos de instância</h2> <p>Os métodos de instância podem ser usados ​​dentro do componente do gráfico.</p> <h3 id="generatelegend"><a href="#generatelegend" class="header-anchor">#</a> generateLegend()</h3> <p>Função auxiliar para gerar uma legenda HTML.</p> <ul><li><strong>Tipo:</strong> <code>Function</code></li> <li><strong>Argumentos</strong>: <code>none</code></li> <li><strong>Uso:</strong></li></ul> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Line <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue-chartjs'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token keyword">extends</span><span class="token operator">:</span> Line<span class="token punctuation">,</span>
+  props<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'datasets'</span><span class="token punctuation">,</span> <span class="token string">'options'</span><span class="token punctuation">]</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    htmlLegend<span class="token operator">:</span> <span class="token keyword">null</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token function">mounted</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">renderChart</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>datasets<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>htmlLegend <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">generateLegend</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="addplugin"><a href="#addplugin" class="header-anchor">#</a> addPlugin</h3> <p>No Chart.js, você pode definir plugins globais e embutidos. Os plug-ins globais estão funcionando sem problemas com o <code>vue-chartjs</code> como descrito no <a href="http://www.chartjs.org/docs/latest/developers/plugins.html" target="_blank" rel="noopener noreferrer">Chart.js docs<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <p>Se você deseja adicionar plug-ins embutidos, <code>vue-chartjs</code> expõe um método auxiliar chamado <code>addPlugin()</code>
+Você deve chamar <code>addPlugin()</code> antes do método <code>renderChart()</code>.</p> <ul><li><strong>Tipo:</strong> <code>Function</code></li> <li><strong>Argumentos</strong>: <code>Array</code> de Plugins</li> <li><strong>Uso:</strong></li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">mounted</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">addPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    id<span class="token operator">:</span> <span class="token string">'my-plugin'</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">beforeInit</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">chart</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token operator">...</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="renderchart"><a href="#renderchart" class="header-anchor">#</a> renderChart()</h3> <p>Cria uma instância Chart.js e renderiza o gráfico.</p> <ul><li><strong>Tipo:</strong> <code>Function</code></li> <li><strong>Argumentos</strong>: <code>Chart Data</code>, <code>Chart Options</code></li> <li><strong>Uso:</strong></li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">mounted</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">renderChart</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    labels<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'January'</span><span class="token punctuation">,</span> <span class="token string">'February'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    datasets<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        label<span class="token operator">:</span> <span class="token string">'Data One'</span><span class="token punctuation">,</span>
+        backgroundColor<span class="token operator">:</span> <span class="token string">'#f87979'</span><span class="token punctuation">,</span>
+        data<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">40</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      responsive<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="objeto-chart-js"><a href="#objeto-chart-js" class="header-anchor">#</a> Objeto Chart.js</h2> <p>Você pode acessar o objeto Chart.js dentro do componente do gráfico com <code>this.$data._chart</code></p> <h2 id="canvas"><a href="#canvas" class="header-anchor">#</a> Canvas</h2> <p>Você pode acessar canvas com <code>this.$refs.canvas</code></p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/apertureless/vue-chartjs/edit/master/docs/pt-br/api/README.md" target="_blank" rel="noopener noreferrer">Edite esta página no GitHub</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.fe685541.js" defer></script><script src="/assets/js/3.b780ef21.js" defer></script><script src="/assets/js/19.0a3b8641.js" defer></script>
+  </body>
+</html>
