@@ -1,7 +1,9 @@
 import Chart from 'chart.js'
+import addRemovedHook from 'vue-removed-hook-mixin'
 
 export function generateChart (chartId, chartType) {
   return {
+    mixins: [addRemovedHook],
     render: function (createElement) {
       return createElement(
         'div', {
@@ -80,7 +82,7 @@ export function generateChart (chartId, chartType) {
         )
       }
     },
-    beforeDestroy () {
+    removed () {
       if (this.$data._chart) {
         this.$data._chart.destroy()
       }
